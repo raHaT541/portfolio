@@ -1,0 +1,69 @@
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .full{
+        width: 96%;        
+
+    }
+    .hero{
+        width: 96%;
+    }
+    .nav{
+        width: 96%;
+    }
+    .history{
+        width: 96%;
+    }
+    .portfolio{
+        width: 96%;
+    }
+    .service{
+        width: 96%;
+    }
+    .client{
+        width: 96%;
+    }
+    .contacts{
+        width: 96%;
+    }
+    .copyright{
+        width: 96%
+    }
+}
+@media only screen and (min-width:480px) and (max-width:767px) {
+    .full{
+        width: 96%;
+    }
+    .hero{
+        width: 96%
+    }
+    .nav{
+        width: 96%;
+    }
+    .history{
+        width: 96%;
+    }
+    .portfolio{
+        width: 96%;
+    }
+    .service{
+        width: 96%;
+        flex-direction: column;
+    }
+    .client{
+        width: 96%;
+        flex-basis: calc(45%-50%);
+    }
+    .contacts{
+        width: 96%;
+    }
+    .about{
+        width: 96%;
+        float: none;
+    }
+    .contact{
+        width: 96%;
+        float: none;
+    }
+    .copyright{
+        width:96%
+    }
+}

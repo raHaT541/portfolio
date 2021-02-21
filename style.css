@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbc{
+    background: rgb(255, 255, 255);
+    height: 80px;
+}
+.nav{    
+    
+    width: 1008px;
+    margin: 0 auto;
+}
+.logo{
+    float:left;
+    margin-top: 22px;
+}
+.menu{
+    float: right;
+}
+.menu ul{
+    
+}
+.menu ul li{
+    display: inline-block;
+    float: left;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+.menu ul li a{
+    
+    font-weight: 400;
+    text-decoration: none;
+    color: #8d8d8d;
+    
+}
+.menu ul li a:hover{
+    color: #00c7fc;
+    
+}
+.herobc{      
+    background: #131316;
+}
+.hero{
+    width: 1008px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    color: white;
+}
+.hero h4{
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.hero h1{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.hero a{
+    text-decoration: none;
+    padding: 7px 20px;
+    font-size: 13px;
+}
+.btn{
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    margin-right: 5px;
+    
+}
+.btn1{
+    margin-left: 5px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+}
+.btn:hover{
+    background: #00c7fc;
+    border: none;
+}
+.btn1:hover{
+    background: #00c7fc;
+    border: none;
+}
+
+.hisbc{
+    background: #f4f4f4;
+}
+.history{
+    width: 1008px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.history h2 {
+    margin-top: 40px;
+    font-weight: 400;
+    text-align: center;
+    height  : 60px;   
+    position: relative;
+    z-index : 1;    
+}
+  
+  .history h2:before {
+    content : "";
+    position: absolute;
+    left    : 42.5%;
+    bottom  : 0;
+    height  : 1px;
+    width   : 15%;
+    border-bottom:3px solid #00c7fc;    
+}
+  .history p{
+    margin-top: 40px;
+    line-height: 30px;
+}
+
+.serbc{
+    background: #f4f4f4;
+    
+}
+.service{
+    width: 1008px;     
+    margin: 0 auto;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    
+      
+}
+.service img{
+    border-bottom: 3px solid #00c7fc;
+    padding-bottom: 15px;
+}
+.service h3{
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.service p{
+    font-size: 13px;
+    padding-bottom: 15px;
+    line-height: 25px;
+}
+.s{
+    background: white;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 30px 20px;    
+}
+.clibc{
+    background: #ffffff;
+}
+.client{
+    width: 1008px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.client h2 {
+    margin-top: 40px;
+    font-weight: 400;
+    text-align: center;
+    height  : 60px;   
+    position: relative;
+    z-index : 1;    
+}
+  
+  .client h2:before {
+    content : "";
+    position: absolute;
+    left    : 42.5%;
+    bottom  : 0;
+    height  : 1px;
+    width   : 15%;
+    border-bottom:3px solid #00c7fc;    
+}
+  .client p{
+    margin-top: 40px;
+    line-height: 30px;
+}
+.clilogo {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-between;
+}
+.clilogo img{ 
+    margin: 5px;
+}
+.abbc{
+    background: #131316;
+    color: white;
+}
+.contacts{
+    width: 1008px;
+    margin: 0 auto;
+    display: flex;
+}
+.about{
+    float: left;
+    width: 45%;
+    text-align: center;
+    border: .5px solid white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 5px;
+    padding: 40px 50px;
+    border-radius: 5px;
+}
+.about h2 {    
+    font-weight: 400;
+    text-align: center;
+    height  : 60px;   
+    position: relative;
+    z-index : 1;    
+}
+  
+.about h2:before {
+    content : "";
+    position: absolute;
+    left    : 42.5%;
+    bottom  : 0;
+    height  : 1px;
+    width   : 15%;
+    border-bottom:3px solid #00c7fc;    
+}
+.about p{
+    font-size: 10px;
+    margin-top: 40px;
+    line-height: 30px;
+}
+.contact{
+    float: right;
+    width: 45%;
+    text-align: center;
+    border: .5px solid white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    padding: 40px 50px;
+    border-radius: 5px;
+}
+.contact h2{
+    font-weight: 400;
+    text-align: center;
+}
+/*--------*/
+ 
+  input {
+    display: block;
+    width: 100%;
+    font-size: 14pt;
+    line-height: 28pt;
+    font-family: "Fjalla One";
+    margin-bottom: 28pt;
+    border: none;
+    border-bottom: 1px solid white;
+    background: #131316;
+    min-width: 250px;
+    padding-left: 5px;
+    outline: none;
+    color: white;
+  }
+  
+  input:focus {
+    border-bottom: 2px solid #00c7fc;
+  }
+  
+  button {
+    display: block;
+    margin: 0 auto;
+    line-height: 28pt;
+    padding: 0 20px;
+    background: #131316;
+    letter-spacing: 2px;
+    transition: 0.2s all ease-in-out;    
+    color: white;
+       
+  }
+  button:hover {
+    background: #00c7fc;
+    color: white;
+    
+  }
+  .copybc{
+      background: #00c7fc;
+  }
+  .copyright{
+      color: white;
+      padding: 10px;
+
+  }
+  .copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+  }
+  .copyright a:hover{
+      color: #8d8d8d;
+  }
+  .copyright p{
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .portbc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+  .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 150px;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;    
+    -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0006);
+  }
+  
